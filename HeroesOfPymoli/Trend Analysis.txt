@@ -1,0 +1,9 @@
+Arlette Varela
+Heroes of Pymoli: Three Observable Trends Based on the Data
+1.	Most gamers are male. There is a direct correlation between the count of players and total purchases by gender. Specifically, there are more males, so there are more purchases by males. 
+2.	The majority of Heroes of Pymoli gamers are in their 20’s. 58.16% of people playing this game are 20 to 29 years old.  
+3.	Most purchases are made by those in their early twenties, followed by those in their late teens. The younger population (late teeneage/early adult) seem to spend the most money on purchasing items.
+
+Other items to consider:
+-	I am interested to understand why the items Final Critic and Oathbreaker, Last Hope of the Breaking Storm the most popular items. They are more expensive, so it seems that gamers are paying a higher price for the items that have better game statistics.  Again, I would have to look at their specific traits to determine what makes them worth the high cost of almost $5/per item.
+-	It would be interesting to see what the stats are on the most popular items so you can see what appeals most to players.

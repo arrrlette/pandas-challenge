@@ -1219,7 +1219,7 @@
     "#create the dataframe and include columns and calculations above\n",
     "most_popular_items_df = pd.DataFrame({\"Purchase Count\": purchase_count, \"Item Price\": item_price, \"Total Purchase Price\": total_purchase_price})\n",
     "\n",
-    "#creating a copy of the most_popular_df so we can use in the next section and not have issues with formatting (the Total Purchase Price will get formatted to an object after we apply formatting in this section)\n",
+    "#creating a copy of the most_popular_df so we can use in the next section and not have issues with formatting (the Total Purchase Price will get formatted to an object after we apply formatting)\n",
     "most_popular_items_copy_df = pd.DataFrame({\"Purchase Count\": purchase_count, \"Item Price\": item_price, \"Total Purchase Price\": total_purchase_price})\n",
     "\n",
     "\n",
@@ -1432,6 +1432,7 @@
    "source": [
     "#sort copy of the original most_popular dataframe by descending purchase count\n",
     "sorted_by_price = most_popular_items_copy_df.sort_values(\"Total Purchase Price\", ascending=False)\n",
+    "\n",
     "\n",
     "#format:\n",
     "sorted_by_price[\"Total Purchase Price\"] = sorted_by_price[\"Total Purchase Price\"].map(\"${:,.2f}\".format)\n",
